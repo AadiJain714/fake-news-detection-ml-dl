@@ -2,9 +2,8 @@
 
 ## Overview
 
-This project is a Fake News Detection System developed using Natural Language Processing (NLP), Machine Learning, and Deep Learning techniques. The system analyzes news articles and predicts whether the news is Real or Fake. An interactive Streamlit web application is provided for real-time news classification.
+This project is a Fake News Detection System developed using Natural Language Processing (NLP), Machine Learning, and Deep Learning techniques. The system analyzes news articles and predicts whether the news is Real or Fake through an interactive Streamlit web application.
 
----
 ---
 
 ## Features
@@ -64,10 +63,7 @@ fake-news-detection-ml-dl/
 ├── tokenizer.pickle
 ├── environment.yml
 ├── LICENSE
-├── startup_page_st.PNG
-├── LSTM_prediction.PNG
-├── 6_model_prediction.PNG
-└── training_loss.PNG
+└── README.md
 ```
 
 ---
@@ -79,26 +75,6 @@ Install dependencies and run the Streamlit application:
 ```bash
 streamlit run streamlit_app.py
 ```
-
----
-
-## Screenshots
-
-### Application Home Page
-
-![Home Page](startup_page_st.PNG)
-
-### LSTM Prediction Example
-
-![LSTM Prediction](LSTM_prediction.PNG)
-
-### Traditional Machine Learning Models Prediction
-
-![ML Prediction](6_model_prediction.PNG)
-
-### Training and Validation Loss
-
-![Training Loss](training_loss.PNG)
 
 ---
 
@@ -143,3 +119,8 @@ streamlit run streamlit_app.py
 ## License
 
 This project is licensed under the MIT License.
+
+
+
+
+
