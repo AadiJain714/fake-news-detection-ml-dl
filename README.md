@@ -8,26 +8,26 @@ This project is a Fake News Detection System developed using Natural Language Pr
 
 ## Features
 
-- Fake News Detection using NLP techniques
-- Text Preprocessing and Feature Extraction
-- Comparison of Multiple Machine Learning Models
-- Deep Learning based LSTM Model
-- Interactive Streamlit Web Application
-- Real-Time News Classification
-- Model Performance Analysis
+* Fake News Detection using NLP techniques
+* Text Preprocessing and Feature Extraction
+* Comparison of Multiple Machine Learning Models
+* Deep Learning based LSTM Model
+* Interactive Streamlit Web Application
+* Real-Time News Classification
+* Model Performance Analysis
 
 ---
 
 ## Technologies Used
 
-- Python
-- Scikit-Learn
-- TensorFlow / Keras
-- Streamlit
-- Pandas
-- NumPy
-- Pickle
-- NLP
+* Python
+* Scikit-Learn
+* TensorFlow / Keras
+* Streamlit
+* Pandas
+* NumPy
+* Pickle
+* NLP
 
 ---
 
@@ -35,12 +35,12 @@ This project is a Fake News Detection System developed using Natural Language Pr
 
 The following Machine Learning models were implemented and evaluated:
 
-- Logistic Regression
-- Decision Tree Classifier
-- Random Forest Classifier
-- Gradient Boosting Classifier
-- Bernoulli Naive Bayes
-- Multinomial Naive Bayes
+* Logistic Regression
+* Decision Tree Classifier
+* Random Forest Classifier
+* Gradient Boosting Classifier
+* Bernoulli Naive Bayes
+* Multinomial Naive Bayes
 
 ---
 
@@ -62,19 +62,38 @@ fake-news-detection-ml-dl/
 ├── streamlit_app.py
 ├── tokenizer.pickle
 ├── environment.yml
-├── LICENSE
-└── README.md
+├── README.md
 ```
 
 ---
 
 ## Running the Application
 
-Install dependencies and run the Streamlit application:
+Run the Streamlit application:
 
 ```bash
 streamlit run streamlit_app.py
 ```
+
+---
+
+## Images
+
+### Application Home Page
+
+![Home Page](startup_page_st.PNG)
+
+### LSTM Prediction Example
+
+![LSTM Prediction](LSTM_prediction.PNG)
+
+### Traditional Machine Learning Models Prediction
+
+![ML Prediction](6_model_prediction.PNG)
+
+### Training and Validation Loss
+
+![Training Loss](training_loss.PNG)
 
 ---
 
@@ -92,35 +111,24 @@ streamlit run streamlit_app.py
 
 ## Future Improvements
 
-- Integration of BERT and Transformer Models
-- Real-Time News API Integration
-- Cloud Deployment
-- Advanced Hyperparameter Tuning
-- Improved Classification Performance
+* Integration of BERT and Transformer Models
+* Real-Time News API Integration
+* Cloud Deployment
+* Advanced Hyperparameter Tuning
+* Improved Classification Performance
 
 ---
 
 ## Resume Highlights
 
-- Developed a Fake News Detection System using NLP, Machine Learning, and Deep Learning techniques.
-- Implemented Logistic Regression, Decision Tree, Random Forest, Gradient Boosting, Bernoulli Naive Bayes, and Multinomial Naive Bayes models.
-- Built an LSTM-based Deep Learning model for text classification.
-- Developed an interactive Streamlit application for real-time prediction.
-- Performed comparative analysis across multiple ML and DL models.
+* Developed a Fake News Detection System using NLP, Machine Learning, and Deep Learning techniques.
+* Implemented Logistic Regression, Decision Tree, Random Forest, Gradient Boosting, Bernoulli Naive Bayes, and Multinomial Naive Bayes models.
+* Built an LSTM-based Deep Learning model for text classification.
+* Developed an interactive Streamlit application for real-time prediction.
+* Performed comparative analysis across multiple ML and DL models.
 
 ---
 
 ## Author
 
 **Aadi Jain**
-
----
-
-## License
-
-This project is licensed under the MIT License.
-
-
-
-
-
