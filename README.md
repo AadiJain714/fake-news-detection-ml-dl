@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is a Fake News Detection System developed using Natural Language Processing (NLP), Machine Learning, and Deep Learning techniques. The system analyzes news articles and predicts whether the news is Real or Fake through an interactive Streamlit web application.
+This project is a Fake News Detection System developed using Natural Language Processing (NLP), Machine Learning, and Deep Learning techniques. The system analyzes news articles and predicts whether a news article is **Real** or **Fake** through an interactive Streamlit web application.
 
 ---
 
@@ -27,7 +27,7 @@ This project is a Fake News Detection System developed using Natural Language Pr
 * Pandas
 * NumPy
 * Pickle
-* NLP
+* Natural Language Processing (NLP)
 
 ---
 
@@ -69,7 +69,7 @@ fake-news-detection-ml-dl/
 
 ## Running the Application
 
-Run the Streamlit application:
+Run the Streamlit application using:
 
 ```bash
 streamlit run streamlit_app.py
@@ -79,21 +79,12 @@ streamlit run streamlit_app.py
 
 ## Images
 
-### Application Home Page
+The repository contains screenshots demonstrating:
 
-![Home Page](startup_page_st.PNG)
-
-### LSTM Prediction Example
-
-![LSTM Prediction](LSTM_prediction.PNG)
-
-### Traditional Machine Learning Models Prediction
-
-![ML Prediction](6_model_prediction.PNG)
-
-### Training and Validation Loss
-
-![Training Loss](training_loss.PNG)
+* Streamlit Application Home Page
+* LSTM Prediction Results
+* Traditional Machine Learning Models Prediction
+* LSTM Training and Validation Loss Graph
 
 ---
 
