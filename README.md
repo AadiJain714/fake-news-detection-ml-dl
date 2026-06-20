@@ -100,13 +100,50 @@ The repository contains screenshots demonstrating:
 
 ---
 
-## Future Improvements
+## Results
 
-* Integration of BERT and Transformer Models
-* Real-Time News API Integration
-* Cloud Deployment
-* Advanced Hyperparameter Tuning
-* Improved Classification Performance
+### Models Evaluated
+
+- Logistic Regression
+- Random Forest
+- XGBoost
+- Multinomial Naive Bayes
+- LSTM (Deep Learning)
+
+### Model Comparison
+
+| Model | Accuracy |
+|---------|---------|
+| Logistic Regression | 98.79% |
+| Multinomial Naive Bayes | 94.27% |
+| Random Forest | 99.70% |
+| XGBoost | 99.71% |
+| LSTM | 99.62% |
+
+### Evaluation Metrics
+
+The models were evaluated using:
+
+- Accuracy
+- Precision
+- Recall
+- F1-Score
+- ROC-AUC Score
+- Confusion Matrix
+
+### Key Achievements
+
+- Compared multiple Machine Learning and Deep Learning approaches for fake news classification.
+- Achieved 99.71% accuracy using XGBoost.
+- Achieved 99.62% validation accuracy using an LSTM-based neural network.
+- Developed a Streamlit web application for real-time fake news prediction.
+- Performed text preprocessing, tokenization, vectorization, and feature engineering to improve classification performance.
+
+### Future Improvements
+
+- Fine-tune Transformer-based models such as BERT and RoBERTa.
+- Deploy the application on cloud platforms for public use.
+- Integrate real-time news verification APIs.
 
 ---
 
